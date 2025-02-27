@@ -1,6 +1,8 @@
 
 window.onload = function () {
 
+    console.log("La pagina esta cargada");
+    
     var botones = document.getElementsByClassName("ctaButtonNum");
     var botonReset = document.getElementById("boton-reset");
     var botonSuma = document.getElementById("boton-sumar");
