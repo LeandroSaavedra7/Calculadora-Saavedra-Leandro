@@ -1,0 +1,116 @@
+body {
+    background-color: white;
+    display: grid;
+    place-items: center;
+    margin: auto;
+
+}
+
+
+.contenedor-calculadora {
+    display: flex;
+    gap: 10px;
+
+
+    padding: 20px;
+    background-color: rgb(38, 37, 37);
+
+
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+
+
+.ctaButton {
+
+    background-color: rgb(95, 97, 97);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 20px;
+    
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+
+
+
+}
+
+.parrafoClase {
+
+    font-weight: bold;
+
+}
+
+
+.resetButton {
+
+    background-color: rgb(17, 139, 232);
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    font-size: 15px;
+    padding: 5px 15px;
+    cursor: pointer;
+
+}
+
+
+.titulo {
+    color: rgb(251, 251, 251);
+
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 20px
+}
+
+
+.divMayor {
+
+    display: flex;
+    justify-content: space-evenly; 
+
+    gap:20px;
+    background-color: rgb(40, 37, 37);
+    
+
+}
+
+
+.contador {
+
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+
+
+}
+
+.ctaButtonMas {
+
+    height: 100px;
+    width: 50px;
+    border-style: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.cuarta-columna {
+
+    gap: 5px;
+
+}
+
+
+.class-input{
+background-color: white;
+height: 35px;
+font-size: 20px;
+
+text-align: end;
+
+}
